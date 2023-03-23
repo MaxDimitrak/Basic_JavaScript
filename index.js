@@ -72,3 +72,20 @@ const myArray = [["John", 23], ["cat", 2]];
 // Only change code below this line
 let removedFromMyArray = myArray.pop()
 
+function functionWithArgs(arg1, arg2){
+    console.log(arg1 + arg2)
+}
+
+functionWithArgs(1, 2)
+
+function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+
+    if (wasThatTrue)
+        return ("Yes, that was true")
+    else
+        return ("No, that was false")
+
+    // Only change code above this line
+
+}
